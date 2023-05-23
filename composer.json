@@ -20,6 +20,13 @@
       "vendor/bin/phpunit"
     ]
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "foxett\\HttpSignerForLaravel\\Providers\\HttpSignerServiceProvider"
+      ]
+    }
+  },
   "autoload": {
     "psr-4": {
       "foxett\\HttpSignerForLaravel\\": "src/"
