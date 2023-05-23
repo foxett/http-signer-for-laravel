@@ -1,0 +1,33 @@
+{
+  "name": "foxett/http-signer-for-laravel",
+  "description": "Sign http request for laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vitaliy Meyerovich",
+      "email": "foxett@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.2",
+    "phpunit/phpunit": "^9.5"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "foxett\\HttpSignerForLaravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "foxett\\HttpSignerForLaravel\\Test\\": "tests/"
+    }
+  }
+}
